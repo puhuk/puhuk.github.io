@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Simón's Webpage"
+title                    : "Sangho Lee's Homepage"
 title_separator          : "-"
-name                     : &name "Simón Roca-Sotelo"
-description              : &description "PhD Student at UC3M (Madrid). Machine Learning."
-url                      : https://simon-roca.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Sangho Lee"
+description              : &description "MSc student at Seoul National University. Data science"
+url                      : https://puhuk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "simon-roca.github.io"
+repository               : "puhuk.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,12 +78,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Simón Roca-Sotelo"
+  name             : "Sangho Lee"
   avatar           : "profile.jpg"
-  bio              : "PhD Student UC3M Machine Learning, NLP: Topic Models & Word Embeddings."
-  location         : "Madrid"
+  bio              : "MSc student at Seoul National University. Data science. Computer vision."
+  location         : "Seoul, South Korea"
   employer         :
-  googlescholar    : "https://scholar.google.es/citations?user=rfSDQy8AAAAJ&hl=es&oi=ao"
+  googlescholar    : 
   email            :
   uri              :
   bitbucket        :
@@ -92,19 +92,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "simon-roca"
+  github           : "puhuk"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/12369959/puhuk"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

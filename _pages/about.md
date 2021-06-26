@@ -8,30 +8,74 @@ redirect_from:
   - /about.html
 ---
 
-I'm a machine learning engineer at 11 street, Korean e-commerce portal. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
+I'm a MSc student of data science at Seoul National University. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
 
-bio
+Biography
 ======
-
 __2021 - present:__ Master student of data science at Seoul National University  
-__2020 - present:__ Machine learning engineer at 11 street  
 __2019 - 2020:__ AI engineer at Carrot Insurance  
 __2013 - 2019:__ Data analyst at Samsung Electronics  
-__2006 - 2013:__ BSc at the University of Korea with a double major in computer science and mathematics  
+__2006 - 2013:__ BSc at the University of Korea (computer science and mathematics)  
 
 
-Getting started
+Skills and Certification
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* Programming: Advanced in Python with Pytorch, Tensorflow, Keras and Scikit-Learn, Intermediate in C++ in Linux/Windows  
+* Paper Implementation: Review and Implement ML/Deep learning SOTA papers (github.com/puhuk)  
+* Analysis: Statistical understanding of data, Structured/Unstructured data (Image, video, text, etc.) preprocessing, analysis and modeling  
+* Languages: Korean (Native), English (Working proficiency)  
+* Scholarship: National Science and Engineering Scholarship (2006~ )  
+* Others:  
+  * Deep learning project mentor (AI bootcamp by Korea Ministry of Employment and Labor) 
+  * Sales forecast competition contest top 10% model (Samsung Electronics)
+  * Tensorflow Developer Certificate (2020.10.)
 
-Site-wide configuration
+
+Work Experience
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Work Experience	
+
+Dec. 2020 – Present 	11Street (E-commerce), Seoul, Korea 
+∙ Role: Improve search result based on model
+∙ Project:
+	Improve low quality query result and Implement automated curation
+: Statistical analysis of current status and make threshold with low quality query
+A/B testing with automated curation and existing curation for analyzing CTR or conversion rate
+        Clustering query words based on statistical analysis of user behavior and seller pattern
+        Review analysis for extracting products with high retention and response
+Nov. 2019 – Dec. 2020 	Carrot Insurance, Seoul, Korea 
+∙ Role: Insurance product development based on deep-learning technology
+∙ Project:
+	Develop crack detection AI model for mobile phone insurance (Dec.2019~)
+: AI detection model to detect crack on customer’s mobile device and reject unqualified devices 
+Extracts frame from videos and classifies screens, detects crack on the devices with CNN algorithms
+(http://www.joseilbo.com/news/htmls/2020/08/20200803403275.html)
+	Develop dog breed classification model (Nov.2019~)
+: AI module implementation for classifying dog breed in Pet insurance
+
+Jul. 2016 ~ Oct. 2019	Samsung Electronics Mobile Division AI Team 
+∙ Role: Statistical analysis of user data and usage prediction (Samsung Pay, Bixby)
+∙ Project:
+	Bixby user utterance analysis and market response prediction
+: Analyze usage data of Bixby from European market with natural language processing algorithms
+ 	 Prioritize services / languages in each market for increasing retention rate and number of active users
+ 	 15% increase in Monthly Active Users has achieved
+	Service promotion strategy planning
+: Market clustering based on usage data and prioritize marketing target and planning for global expansion
+ 	 Analyze correlation between each factor from usage/market data
+	Bixby / Samsung Pay business model setup
+: Predict user and amount of each service per countries based on historical data (Device expansion, churn rate, etc.)
+
+Jul. 2013 ~ Jun. 2016	Samsung Electronics Mobile Division Procurement Team
+∙ Role: Semiconductor demand forecasting
+∙ Project:
+	Demand prediction based on product lifecycle, market response, sales history and seasonality
+: (KNN clustering for market/semiconductor segmentation, Linear regression for long-term prediction)
+Prioritize semiconductors supply chain by with device/semiconductor correlation analysis
+Stock amount decreased (over 10%) and Just-In-Time score has increased
+
+![image](https://user-images.githubusercontent.com/2902772/123516332-7d644200-d6d6-11eb-97c0-56031d012262.png)
+
 
 Create content & metadata
 ------

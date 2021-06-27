@@ -10,6 +10,7 @@ redirect_from:
 
 I'm a MSc student of data science at Seoul National University. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
 
+
 Biography
 ======
 __2021 - present:__ Master student of data science at Seoul National University  
@@ -18,53 +19,68 @@ __2013 - 2019:__ Data analyst at Samsung Electronics
 __2006 - 2013:__ BSc at the University of Korea (computer science and mathematics)  
 
 
+Highlights
+======
+- Proficient programming skills in Python, C++, R and SQL  
+- Experience with building advanced statistical methods including neural networks predictions in a big data environment  
+- Experience with dealing both structured and unstructured data (Image, video, text, etc.)  
+- Comprehensive knowledge of Calculus, Linear algebra, Probability, Computational algorithms and Dynamic programming  
+- Self-motivated and consistently strive to improve performance  
+
+
 Skills and Certification
 ======
 * Programming: Advanced in Python with Pytorch, Tensorflow, Keras and Scikit-Learn, Intermediate in C++ in Linux/Windows  
-* Paper Implementation: Review and Implement ML/Deep learning SOTA papers (github.com/puhuk)  
-* Analysis: Statistical understanding of data, Structured/Unstructured data (Image, video, text, etc.) preprocessing, analysis and modeling  
-* Languages: Korean (Native), English (Working proficiency)  
-* Scholarship: National Science and Engineering Scholarship (2006~ )  
+* Mathematics: Statistics, Linear algebra, Numerical analysis, Differential equation
+* Data: Statistical understanding of structured/unstructured data (Image, video, text, etc.), preprocessing, analyzing and modeling  
+* Paper Implementation: Review and Implement ML/Deep learning papers (github.com/puhuk)  
+* Scholarship: National Science and Engineering Scholarship (Mar.2006~ )  
 * Others:  
-  * Deep learning project mentor (AI bootcamp by Korea Ministry of Employment and Labor) 
-  * Sales forecast competition contest top 10% model (Samsung Electronics)
-  * Tensorflow Developer Certificate (2020.10.)
+  * OpenUP (Korea national opensource support center) frontier developer (Jun.2021 ~ ) 
+  * Deep learning project mentoring (AI bootcamp by Ministry of Employment and Labor w/ Samsung Multicampus & SK) (Nov.2019 ~ )
+  * Google machine learning bootcamp (Jan.2021)
+  * Tensorflow Developer Certificate (Oct.2020)
+  * Sales forecast competition contest top 10% model (Samsung Electronics) (Sep.2019)
 
 
 Work Experience
 ------
-Work Experience	
 
-Dec. 2020 – Present 	11Street (E-commerce), Seoul, Korea 
-∙ Role: Improve search result based on model
-∙ Project:
-	Improve low quality query result and Implement automated curation
+__Dec.2020 - Present__  
+__Machine learning engineer @11 Street (E-commerce)__   
+_Seoul, Korea_  
+- Role: Improve search model based on statistical analysis
+- Project:
+  - Improve low quality query result
 : Statistical analysis of current status and make threshold with low quality query
 A/B testing with automated curation and existing curation for analyzing CTR or conversion rate
         Clustering query words based on statistical analysis of user behavior and seller pattern
         Review analysis for extracting products with high retention and response
-Nov. 2019 – Dec. 2020 	Carrot Insurance, Seoul, Korea 
-∙ Role: Insurance product development based on deep-learning technology
-∙ Project:
-	Develop crack detection AI model for mobile phone insurance (Dec.2019~)
-: AI detection model to detect crack on customer’s mobile device and reject unqualified devices 
-Extracts frame from videos and classifies screens, detects crack on the devices with CNN algorithms
-(http://www.joseilbo.com/news/htmls/2020/08/20200803403275.html)
-	Develop dog breed classification model (Nov.2019~)
-: AI module implementation for classifying dog breed in Pet insurance
+        
+__Nov.2019 ~ 2020.Dec__  
+__AI engineer @Carrot insurace (Insurance)__   
+_Seoul, Korea_  
+- Role: Insurance product development based on deep-learning technology
+- Project
+  - Develop crack detection AI model for mobile phone insurance (Dec.2019~)
+    - AI detection model to detect crack on customer’s mobile device 
+    - Extracts frames from videos and classifies screens, detects crack on the devices with CNN models  
+      (http://www.joseilbo.com/news/htmls/2020/08/20200803403275.html)  
+  - AI module implementation for classifying dog breed in Pet insurance (Jun.2020~)  
+    - Develop dog breed classification model 
 
 Jul. 2016 ~ Oct. 2019	Samsung Electronics Mobile Division AI Team 
 ∙ Role: Statistical analysis of user data and usage prediction (Samsung Pay, Bixby)
-∙ Project:
-	Bixby user utterance analysis and market response prediction
-: Analyze usage data of Bixby from European market with natural language processing algorithms
- 	 Prioritize services / languages in each market for increasing retention rate and number of active users
- 	 15% increase in Monthly Active Users has achieved
-	Service promotion strategy planning
-: Market clustering based on usage data and prioritize marketing target and planning for global expansion
- 	 Analyze correlation between each factor from usage/market data
-	Bixby / Samsung Pay business model setup
-: Predict user and amount of each service per countries based on historical data (Device expansion, churn rate, etc.)
+∙ Project
+  - Bixby user utterance analysis and market response prediction
+    - Analyze usage data of Bixby from European market with natural language processing algorithms
+ 	  - Prioritize services / languages in each market for increasing retention rate and number of active users
+ 	  - 15% increase in Monthly Active Users has achieved
+  - Service promotion strategy planning
+    - Market clustering based on usage data and prioritize marketing target and planning for global expansion
+ 	  - Analyze correlation between each factor from usage/market data
+  - Bixby / Samsung Pay business model setup
+    - Predict user and amount of each service per countries based on historical data (Device expansion, churn rate, etc.)
 
 Jul. 2013 ~ Jun. 2016	Samsung Electronics Mobile Division Procurement Team
 ∙ Role: Semiconductor demand forecasting

@@ -1,5 +1,5 @@
 ---
-title: "Kaggle practice - NYC taxi fare description (1)"
+title: "Kaggle - NYC taxi fare description (1)"
 date: 2018-11-15 08:26:28 -0400
 categories: Kaggle practice
 use_math: true

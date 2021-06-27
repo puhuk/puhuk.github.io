@@ -10,6 +10,11 @@ redirect_from:
 
 I'm a MSc student of data science at Seoul National University. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
 
+Research Interest
+======
+- Video representation learning  
+- Multimodal video modeling  
+
 
 Biography
 ======

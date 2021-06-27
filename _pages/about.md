@@ -50,12 +50,14 @@ Work Experience
 __Dec.2020 - Present__  
 __Machine learning engineer @11 Street (E-commerce)__   
 _Seoul, Korea_  
+------
 - Role: Improve search model based on statistical analysis
 
 
 __Nov.2019 ~ 2020.Dec__  
 __AI engineer @Carrot insurace (Insurance)__   
 _Seoul, Korea_  
+------
 - Role: Insurance product development based on deep-learning technology
 - Project
   - Develop crack detection AI model for mobile phone insurance (Dec.2019~)
@@ -68,6 +70,7 @@ _Seoul, Korea_
 __Jul.2016 ~ Oct.2019__  
 __Data analyst @Samsung Electronics (Manufacturer)__   
 _Suwon, Korea_  
+------
 - Role: Statistical analysis of user data and usage prediction (Samsung Pay, Bixby)
 - Project
   - Bixby user utterance analysis and market response prediction
@@ -83,6 +86,7 @@ _Suwon, Korea_
 __Jul.2013 ~ Jun.2016__  
 __Data analyst @Samsung Electronics (Manufacturer)__   
 _Suwon, Korea_  
+------
 - Role: Semiconductor demand forecasting
 - Project:
   - Demand prediction based on product lifecycle, market response, sales history and seasonality

@@ -9,21 +9,22 @@ redirect_from:
 ---
 
 I'm a MSc student of data science at Seoul National University. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
-
+  
+  
 Research Interest
 ======
 - Video representation learning  
 - Multimodal video modeling  
-
-
+  
+  
 Biography
 ======
 __2021 - present:__ Master student of data science at Seoul National University  
 __2019 - 2020:__ AI engineer at Carrot Insurance  
 __2013 - 2019:__ Data analyst at Samsung Electronics  
 __2006 - 2013:__ BSc at the University of Korea (computer science and mathematics)  
-
-
+  
+  
 Highlights
 ======
 - Proficient programming skills in Python, C++, R and SQL  
@@ -31,8 +32,8 @@ Highlights
 - Experience with dealing both structured and unstructured data (Image, video, text, etc.)  
 - Comprehensive knowledge of Calculus, Linear algebra, Probability, Computational algorithms and Dynamic programming  
 - Self-motivated and consistently strive to improve performance  
-
-
+  
+  
 Skills and Certification
 ======
 * Programming: Advanced in Python with Pytorch, Tensorflow, Keras and Scikit-Learn, Intermediate in C++ in Linux/Windows  
@@ -46,8 +47,8 @@ Skills and Certification
   * Google machine learning bootcamp (Jan.2021)
   * Tensorflow Developer Certificate (Oct.2020)
   * Sales forecast competition contest top 10% model (Samsung Electronics) (Sep.2019)
-
-
+  
+  
 Work Experience
 ------
 

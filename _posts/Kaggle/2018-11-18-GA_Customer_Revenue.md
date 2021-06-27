@@ -1,5 +1,5 @@
 ---
-title: "Kaggle practice - GA Customer Revenue prediction - EDA"
+title: "Kaggle - GA Customer Revenue prediction - EDA"
 date: 2018-11-18 08:26:28 -0400
 categories: Kaggle practice
 use_math: true

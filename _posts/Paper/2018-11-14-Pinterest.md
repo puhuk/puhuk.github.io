@@ -1,7 +1,7 @@
 ---
-title: "ML paper study with 'Related pins at pinterest the evolution of a real-world recommender system'"
+title: "Related pins at pinterest the evolution of a real-world recommender system"
 date: 2018-11-14 08:26:28 -0400
-categories: Paper study
+categories: Paper review
 use_math: true
 ---
 

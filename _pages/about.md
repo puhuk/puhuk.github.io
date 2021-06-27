@@ -50,6 +50,7 @@ Work Experience
 __Dec.2020 - Present__  
 __Machine learning engineer @11 Street (E-commerce)__   
 _Seoul, Korea_  
+
 ------
 - Role: Improve search model based on statistical analysis
 
@@ -57,7 +58,7 @@ _Seoul, Korea_
 __Nov.2019 ~ 2020.Dec__  
 __AI engineer @Carrot insurace (Insurance)__   
 _Seoul, Korea_  
-------
+______
 - Role: Insurance product development based on deep-learning technology
 - Project
   - Develop crack detection AI model for mobile phone insurance (Dec.2019~)

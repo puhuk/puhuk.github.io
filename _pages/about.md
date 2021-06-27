@@ -56,6 +56,7 @@ __Dec.2020 - Present__
 __Machine learning engineer @11 Street (E-commerce)__   
 _Seoul, Korea_  
 - Role: Improve search model based on statistical analysis  
+
 ------  
   
 __Nov.2019 ~ 2020.Dec__  
@@ -69,6 +70,7 @@ _Seoul, Korea_
       (http://www.joseilbo.com/news/htmls/2020/08/20200803403275.html)  
   - AI module implementation for classifying dog breed in Pet insurance (Jun.2020~)  
     - Develop dog breed classification model 
+
 ------  
 
 __Jul.2016 ~ Oct.2019__  
@@ -85,16 +87,17 @@ _Suwon, Korea_
  	  - Analyze correlation between each factor from usage/market data
   - Bixby / Samsung Pay business model setup
     - Predict user and amount of each service per countries based on historical data (Device expansion, churn rate, etc.)
+
 ------  
 
 __Jul.2013 ~ Jun.2016__  
 __Data analyst @Samsung Electronics (Manufacturer)__   
 _Suwon, Korea_  
-------
 - Role: Semiconductor demand forecasting
 - Project:
   - Demand prediction based on product lifecycle, market response, sales history and seasonality
     - KNN clustering for market/semiconductor segmentation, Linear regression for long-term prediction
     - Prioritize semiconductors supply chain by with device/semiconductor correlation analysis
     - Stock amount decreased (over 10%) and Just-In-Time score has increased
+
 ------  

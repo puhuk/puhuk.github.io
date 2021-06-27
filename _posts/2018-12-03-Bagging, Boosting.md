@@ -1,5 +1,5 @@
 ---
-title: "ML terms - Bagging, Boosting"
+title: "Bagging, Boosting"
 date: 2018-12-06 08:26:28 -0400
 categories: ML terms
 use_math: true

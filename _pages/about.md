@@ -75,7 +75,7 @@ _Seoul, Korea_
 ------  
 
 __Jul.2016 ~ Oct.2019__  
-__Data analyst @Samsung Electronics (Manufacturer)__   
+__Data analyst @Samsung Electronics AI team (Manufacturer)__   
 _Suwon, Korea_  
 - Role: Statistical analysis of user data and usage prediction (Samsung Pay, Bixby)
 - Project
@@ -92,7 +92,7 @@ _Suwon, Korea_
 ------  
 
 __Jul.2013 ~ Jun.2016__  
-__Data analyst @Samsung Electronics (Manufacturer)__   
+__Data analyst @Samsung Electronics Procurement team (Manufacturer)__   
 _Suwon, Korea_  
 - Role: Semiconductor demand forecasting
 - Project:

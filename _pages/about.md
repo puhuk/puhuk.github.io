@@ -11,13 +11,6 @@ redirect_from:
 I'm a MSc student of data science at Seoul National University. Worked in Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer in Carrot insurance.
   
   
-Research Interest
-======
-- Video representation learning  
-- Generative modeling  
-- Multimodal video modeling  
-  
-  
 Biography
 ======
 __2021 - present:__ Master student of data science at Seoul National University  
@@ -48,6 +41,12 @@ Skills and Certification
   * Google machine learning bootcamp (Jan.2021)
   * Tensorflow Developer Certificate (Oct.2020)
   * Sales forecast competition contest top 10% model (Samsung Electronics) (Sep.2019)
+  
+  
+Research Interest
+======
+- Video representation learning  
+- Generative modeling  
   
   
 Work Experience

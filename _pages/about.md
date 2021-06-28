@@ -28,6 +28,12 @@ Highlights
 - Self-motivated and consistently strive to improve performance  
   
   
+Research Interest
+======
+- Video representation learning  
+- Generative modeling  
+  
+  
 Skills and Certification
 ======
 * Programming: Advanced in Python with Pytorch, Tensorflow, Keras and Scikit-Learn, Intermediate in C++ in Linux/Windows  
@@ -41,12 +47,6 @@ Skills and Certification
   * Google machine learning bootcamp (Jan.2021)
   * Tensorflow Developer Certificate (Oct.2020)
   * Sales forecast competition contest top 10% model (Samsung Electronics) (Sep.2019)
-  
-  
-Research Interest
-======
-- Video representation learning  
-- Generative modeling  
   
   
 Work Experience

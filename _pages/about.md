@@ -19,6 +19,12 @@ __2013 - 2019:__ Data analyst at Samsung Electronics
 __2006 - 2013:__ BSc at the University of Korea (computer science and mathematics)  
   
   
+Research Interest
+======
+- Video representation learning  
+- Generative modeling  
+  
+  
 Highlights
 ======
 - Proficient programming skills in Python, C++, R and SQL  
@@ -26,12 +32,6 @@ Highlights
 - Experience with dealing both structured and unstructured data (Image, video, text, etc.)  
 - Comprehensive knowledge of Calculus, Linear algebra, Probability, Computational algorithms and Dynamic programming  
 - Self-motivated and consistently strive to improve performance  
-  
-  
-Research Interest
-======
-- Video representation learning  
-- Generative modeling  
   
   
 Skills and Certification

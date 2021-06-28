@@ -14,6 +14,7 @@ I'm a MSc student of data science at Seoul National University. Worked in Samsun
 Research Interest
 ======
 - Video representation learning  
+- Generative modeling  
 - Multimodal video modeling  
   
   

@@ -14,7 +14,7 @@ I'm a MSc student of data science at Seoul National University. Worked at Samsun
 Biography
 ======
 __2021 - present:__ Master student of data science at Seoul National University  
-__2020 Dec - 2021 Jul:__ AI engineer at Carrot Insurance  
+__2020 Dec - 2021 Jul:__ Machine learning engineer at 11street
 __2019 Nov - 2020 Nov:__ AI engineer at Carrot Insurance  
 __2013 Jul - 2019 Oct:__ Data analyst at Samsung Electronics  
 __2006 Mar - 2013 Aug:__ BSc at the University of Korea (computer science and mathematics)  

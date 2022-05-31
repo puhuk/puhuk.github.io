@@ -54,7 +54,7 @@ Work Experience
 ------
 
 
-__Dec.2020 - Present__  
+__Dec.2020 - 2021.Jul__  
 __Machine learning engineer @11 Street (E-commerce)__   
 _Seoul, Korea_  
 - Role: Improve search model    

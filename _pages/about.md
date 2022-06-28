@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a MSc student of data science at Seoul National University. Worked at Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer at Carrot insurance.
+I'm a MS student of data science at Seoul National University. Worked at Samsung Electronics forecasting demand of mobile devices and semiconductor, analyzing usage of mobile services (Samsung Pay, Bixby, etc.) for years. Worked as AI engineer at Carrot insurance.
   
   
 Biography
@@ -17,7 +17,7 @@ __2021 - present:__ Master student of data science at Seoul National University
 __2020 Dec - 2021 Jul:__ Machine learning engineer at 11street  
 __2019 Nov - 2020 Nov:__ AI engineer at Carrot Insurance  
 __2013 Jul - 2019 Oct:__ Data analyst at Samsung Electronics  
-__2006 Mar - 2013 Aug:__ BSc at the University of Korea (computer science and mathematics)  
+__2006 Mar - 2013 Aug:__ BSc at the Korea University (computer science and mathematics)  
   
   
 Research Interest

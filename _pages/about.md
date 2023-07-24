@@ -13,11 +13,12 @@ redirect_from:
 Biography
 ======
 __2023 Mar - :__ Computer vision research & development  
-__2021 Mar - 2023 Feb:__ MS of data science at Seoul National University  
 __2020 Dec - 2021 Jul:__ Machine learning engineer at 11street  
 __2019 Nov - 2020 Nov:__ AI engineer at Carrot Insurance  
 __2013 Jul - 2019 Oct:__ Data analyst at Samsung Electronics  
-__2006 Mar - 2013 Aug:__ BSc at the Korea University (computer science and mathematics)  
+
+__MS of data science at Seoul National University__
+__BS at the Korea University (computer science and mathematics)__ 
   
   
 Research Interest

@@ -41,10 +41,12 @@ Publications
 **Under Review**  
 - Lee et al. (First author), *Layout-Free Multi-subject Customization for Text-to-Image Generation*, Preparing for AAAI submission  
 **Peer-Reviewed**  
-- Chae et al. (Co-author), *Towards a Complete Benchmark on Video Moment Localization*, AISTATS 2024  
 - Lee et al. (First author), *Learning to Wear: Details-Preserved Virtual Try-on via Disentangling Clothes and Wearer*, BMVC 2022  
+- Lee et al. (First author), *Towards Detailed Characteristic-Preserving Virtual Try-On*, CVPR Workshop 2022
+- Chae et al. (Co-author), *Towards a Complete Benchmark on Video Moment Localization*, AISTATS 2024
 - Mun et al. (Co-author), *BaSSL: Boundary-aware Self-Supervised Learning for Video Scene Segmentation*, ACCV 2022  
-- Lee et al. (First author), *Towards Detailed Characteristic-Preserving Virtual Try-On*, CVPR Workshop 2022  
+
+
 
 Highlights
 ======

@@ -21,6 +21,7 @@ __Oct 2022 – Present:__ AI Engineer
 - Digital asset generation for various industries  
 - Production-ready AI model deployment and workflow optimization  
 - Large Language Model (LLM) finetuning & deployment (domain-specific instruction tuning, RAG system optimization, inference acceleration)
+- Small Language Models (SLM) optimization (parameter-efficient tuning, quantization)
 
 __Jul 2022 – Oct 2022:__ Opensource Engineer (Intern), Quansight Labs  
 - Contributed to PyTorch-Ignite open-source project  

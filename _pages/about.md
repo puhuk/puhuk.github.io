@@ -17,8 +17,9 @@ __Nov 2019 – Dec 2020:__ AI Engineer, Carrot Insurance
 __Jul 2016 – Oct 2019:__ Data Analyst, Samsung Electronics (Mobile Division AI Team)  
 __Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Mobile Division Procurement Team)  
 
-__MS in Data Science, Seoul National University__ (Image generation/translation, Video understanding, Multimodal AI, LLM)  
-__BSc in Computer Science & Mathematics, Korea University__  
+__MS in Data Science, Seoul National University__ , Seoul, Korea 
+(Image generation/translation, Video understanding, Multimodal AI, LLM)  
+__BSc in Computer Science & Mathematics, Korea University__  , Seoul, Korea 
 
 Research Interest
 ======

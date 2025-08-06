@@ -8,100 +8,53 @@ redirect_from:
   - /about.html
 ---
 
-  
-  
 Biography
 ======
-__2021 Jul - :__ Computer vision research & development  
-__2020 Dec - 2021 Jul:__ Machine learning engineer at 11street  
-__2019 Nov - 2020 Nov:__ AI engineer at Carrot Insurance  
-__2013 Jul - 2019 Oct:__ Data analyst at Samsung Electronics  
+__Oct 2022 – Present:__ AI Engineer
+__Jul 2022 – Oct 2022:__ Opensource Engineer (Intern), Quansight Labs (Remote)  
+__Dec 2020 – Jul 2021:__ Machine Learning Engineer, 11Street (E-commerce)  
+__Nov 2019 – Dec 2020:__ AI Engineer, Carrot Insurance  
+__Jul 2016 – Oct 2019:__ Data Analyst, Samsung Electronics (Mobile Division AI Team)  
+__Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Procurement Team)  
 
-__MS of data science at Seoul National University__   
-__BSc at the Korea University (computer science and mathematics)__   
+__MS in Data Science, Seoul National University__ (Image generation/translation, Video understanding, Multimodal AI, LLM)  
+__BSc in Computer Science & Mathematics, Korea University__  
 
-  
-  
 Research Interest
 ======
-- Video representation learning  
-- Generative modeling  
-  
-  
+- Generative modeling (diffusion models, virtual try-on)  
+- Video understanding  
+- Multimodal AI  
+- Large Language Models (LLM)  
+
+Patents & Intellectual Property
+======
+- KR 10-2023-0128093 (2023) “Image Generation Apparatus and Method”  
+- KR 10-2023-0120201 (2023) “User Terminal, Server & Method for Image Editing”  
+- KR 10-2023-0116928 (2023) “Image Editing Apparatus and Method”  
+- US PFP230066US (2023) “User Terminal, Server & Method of Operation for Image Editing”  
+- KR 10-2022-0116656 (2022) “Virtual Try‑On Method Supporting Diverse Poses & Body Types”  
+- KR 2202-068959 (2022) “Virtual Try-on Program Development”  
+
+Publications
+======
+**Under Review**  
+- Lee et al. (First author), *Layout-Free Multi-subject Customization for Text-to-Image Generation*, Preparing for AAAI submission  
+
+**Peer-Reviewed**  
+- Chae et al. (Co-author), *Towards a Complete Benchmark on Video Moment Localization*, AISTATS 2024  
+- Lee et al. (First author), *Learning to Wear: Details-Preserved Virtual Try-on via Disentangling Clothes and Wearer*, BMVC 2022  
+- Mun et al. (Co-author), *BaSSL: Boundary-aware Self-Supervised Learning for Video Scene Segmentation*, ACCV 2022  
+- Lee et al. (First author), *Towards Detailed Characteristic-Preserving Virtual Try-On*, CVPR Workshop 2022  
+
 Highlights
 ======
-- Proficient programming skills in Python, C++, R and SQL  
-- Experience with building advanced statistical methods including neural networks predictions in a big data environment  
-- Experience with dealing both structured and unstructured data (Image, video, text, etc.)  
-- Comprehensive knowledge of Calculus, Linear algebra, Probability, Computational algorithms and Dynamic programming  
-- Self-motivated and consistently strive to improve performance  
-  
-  
-Skills and Certification
-======
-* Programming: Advanced in Python with Pytorch, Tensorflow, Keras and Scikit-Learn, Intermediate in C++ in Linux/Windows  
-* Mathematics: Statistics, Linear algebra, Numerical analysis, Differential equation
-* Data: Statistical understanding of structured/unstructured data (Image, video, text, etc.), preprocessing, analyzing and modeling  
-* Paper Implementation: Review and Implement ML/Deep learning papers (github.com/puhuk)  
-* Scholarship: National Science and Engineering Scholarship (Mar.2006~ )  
-* Others:  
-  * OpenUP (Korea national opensource support center) frontier developer (Jun.2021 ~ ) 
-  * Deep learning project mentoring (AI bootcamp by Ministry of Employment and Labor w/ Samsung Multicampus & SK) (Nov.2019 ~ )
-  * Google machine learning bootcamp (Jan.2021)
-  * Tensorflow Developer Certificate (Oct.2020)
-  * Sales forecast competition contest top 10% model (Samsung Electronics) (Sep.2019)
-  
-  
-Work Experience
-------
-
-
-__Dec.2020 - 2021.Jul__  
-__Machine learning engineer @11 Street (E-commerce)__   
-_Seoul, Korea_  
-- Role: Improve search model    
-
-------  
-  
-__Nov.2019 ~ 2020.Dec__  
-__AI engineer @Carrot insurace (Insurance)__   
-_Seoul, Korea_  
-- Role: Insurance product development based on deep-learning technology
-- Project
-  - Develop crack detection AI model for mobile phone insurance (Dec.2019~)
-    - AI detection model to detect crack on customer’s mobile device 
-    - Extracts frames from videos and classifies screens, detects crack on the devices with CNN models  
-      (http://www.joseilbo.com/news/htmls/2020/08/20200803403275.html)  
-  - AI module implementation for classifying dog breed in Pet insurance (Jun.2020~)  
-    - Develop dog breed classification model 
-
-------  
-
-__Jul.2016 ~ Oct.2019__  
-__Data analyst @Samsung Electronics AI team (Manufacturer)__   
-_Suwon, Korea_  
-- Role: Statistical analysis of user data and usage prediction (Samsung Pay, Bixby)
-- Project
-  - Bixby user utterance analysis and market response prediction
-    - Analyze usage data of Bixby from European market with natural language processing algorithms
- 	  - Prioritize services / languages in each market for increasing retention rate and number of active users
- 	  - 15% increase in Monthly Active Users has achieved
-  - Service promotion strategy planning
-    - Market clustering based on usage data and prioritize marketing target and planning for global expansion
- 	  - Analyze correlation between each factor from usage/market data
-  - Bixby / Samsung Pay business model setup
-    - Predict user and amount of each service per countries based on historical data (Device expansion, churn rate, etc.)
-
-------  
-
-__Jul.2013 ~ Jun.2016__  
-__Data analyst @Samsung Electronics Procurement team (Manufacturer)__   
-_Suwon, Korea_  
-- Role: Semiconductor demand forecasting
-- Project:
-  - Demand prediction based on product lifecycle, market response, sales history and seasonality
-    - KNN clustering for market/semiconductor segmentation, Linear regression for long-term prediction
-    - Prioritize semiconductors supply chain by with device/semiconductor correlation analysis
-    - Stock amount decreased (over 10%) and Just-In-Time score has increased
-
-------  
+- Advanced virtual try-on and image generation pipeline development  
+- Proficient in Python, PyTorch, TensorFlow, Keras, and Scikit-Learn (Intermediate C++ on Linux/Windows)  
+- Strong mathematical background (Statistics, Linear algebra, Numerical analysis, Differential equations)  
+- Experience handling structured and unstructured data (image, video, text)  
+- Implementation of state-of-the-art ML/DL papers (github.com/puhuk)  
+- OpenUP (Korea National Open Source Support Center) Frontier Developer (Jun. 2021 ~ )  
+- AI bootcamp deep learning project mentor (Ministry of Employment and Labor w/ Samsung Multicampus & SK) (Nov. 2019 ~ )  
+- TensorFlow Developer Certificate (Oct. 2020)  
+- Sales forecast competition top 10% model (Samsung Electronics) (Sep. 2019)  

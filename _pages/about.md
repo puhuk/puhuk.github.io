@@ -10,7 +10,7 @@ redirect_from:
 
 Biography
 ======
-__Oct 2022 – Present:__ AI Engineer 
+__Oct 2022 – Present:__ AI Engineer  
 __Jul 2022 – Oct 2022:__ Quansight Labs (Remote, Internship)  
 __Dec 2020 – Jul 2021:__ Machine Learning Engineer, 11Street (E-commerce)  
 __Nov 2019 – Dec 2020:__ AI Engineer, Carrot Insurance  

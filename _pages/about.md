@@ -12,7 +12,7 @@ redirect_from:
   
 Biography
 ======
-__2021 Jul - :__ Computer vision research & development  
+__2021 Jul - :__ Computer vision research & development   
 __2020 Dec - 2021 Jul:__ Machine learning engineer at 11street  
 __2019 Nov - 2020 Nov:__ AI engineer at Carrot Insurance  
 __2013 Jul - 2019 Oct:__ Data analyst at Samsung Electronics  

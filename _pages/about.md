@@ -40,7 +40,8 @@ Patents & Intellectual Property
 Publications
 ======
 **Under Review**  
-- Lee et al. (First author), *Layout-Free Multi-subject Customization for Text-to-Image Generation*, Preparing for AAAI submission  
+- Lee et al. (First author), *Layout-Free Multi-subject Customization for Text-to-Image Generation*, Preparing for AAAI submission
+  
 **Peer-Reviewed**  
 - Lee et al. (First author), *Learning to Wear: Details-Preserved Virtual Try-on via Disentangling Clothes and Wearer*, BMVC 2022  
 - Lee et al. (First author), *Towards Detailed Characteristic-Preserving Virtual Try-On*, CVPR Workshop 2022

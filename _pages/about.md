@@ -10,12 +10,12 @@ redirect_from:
 
 Biography
 ======
-__Oct 2022 – Present:__ AI Engineer (Freelancer)  
-__Jul 2022 – Oct 2022:__ Opensource Engineer (Intern), Quansight Labs (Remote)  
+__Oct 2022 – Present:__ AI Engineer 
+__Jul 2022 – Oct 2022:__ Quansight Labs (Remote, Internship)  
 __Dec 2020 – Jul 2021:__ Machine Learning Engineer, 11Street (E-commerce)  
 __Nov 2019 – Dec 2020:__ AI Engineer, Carrot Insurance  
 __Jul 2016 – Oct 2019:__ Data Analyst, Samsung Electronics (Mobile Division AI Team)  
-__Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Procurement Team)  
+__Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Mobile Division Procurement Team)  
 
 __MS in Data Science, Seoul National University__ (Image generation/translation, Video understanding, Multimodal AI, LLM)  
 __BSc in Computer Science & Mathematics, Korea University__  
@@ -40,7 +40,6 @@ Publications
 ======
 **Under Review**  
 - Lee et al. (First author), *Layout-Free Multi-subject Customization for Text-to-Image Generation*, Preparing for AAAI submission  
-
 **Peer-Reviewed**  
 - Chae et al. (Co-author), *Towards a Complete Benchmark on Video Moment Localization*, AISTATS 2024  
 - Lee et al. (First author), *Learning to Wear: Details-Preserved Virtual Try-on via Disentangling Clothes and Wearer*, BMVC 2022  

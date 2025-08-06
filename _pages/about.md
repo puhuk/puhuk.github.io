@@ -10,6 +10,12 @@ redirect_from:
 
 Biography
 ======
+
+__MS in Data Science, Seoul National University__ , Seoul, Korea 
+(Image generation/translation, Video understanding, Multimodal AI, LLM)  
+__BSc in Computer Science & Mathematics, Korea University__  , Seoul, Korea 
+
+
 __Oct 2022 – Present:__ AI Engineer  
 - Virtual try-on, generative image pipelines, diffusion model customization  
 - Digital asset generation for various industries  
@@ -36,11 +42,6 @@ __Jul 2016 – Oct 2019:__ Data Analyst, Samsung Electronics (Mobile Division AI
 __Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Procurement Team)  
 - Semiconductor demand forecasting (KNN clustering, regression modeling)  
 - Achieved >10% stock reduction and improved Just-In-Time performance  
-
-
-__MS in Data Science, Seoul National University__ , Seoul, Korea 
-(Image generation/translation, Video understanding, Multimodal AI, LLM)  
-__BSc in Computer Science & Mathematics, Korea University__  , Seoul, Korea 
 
 Research Interest
 ======

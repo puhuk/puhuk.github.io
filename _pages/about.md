@@ -11,11 +11,32 @@ redirect_from:
 Biography
 ======
 __Oct 2022 – Present:__ AI Engineer  
-__Jul 2022 – Oct 2022:__ Quansight Labs (Remote, Internship)  
+- Virtual try-on, generative image pipelines, diffusion model customization  
+- Digital asset generation for various industries  
+- Production-ready AI model deployment and workflow optimization  
+- Large Language Model (LLM) finetuning & deployment (domain-specific instruction tuning, RAG system optimization, inference acceleration)
+
+__Jul 2022 – Oct 2022:__ Opensource Engineer (Intern), Quansight Labs  
+- Contributed to PyTorch-Ignite open-source project  
+- Improved metric testing framework and optimized distributed metric calculation  
+- Addressed CI issues and resolved community-raised bug reports  
+
 __Dec 2020 – Jul 2021:__ Machine Learning Engineer, 11Street (E-commerce)  
+- Improved information retrieval results (query clustering, automated curation)  
+- Optimized search models and enhanced large-scale user query performance  
+
 __Nov 2019 – Dec 2020:__ AI Engineer, Carrot Insurance  
+- Developed deep learning-based crack detection model for mobile insurance  
+- Built dog breed classification model for pet insurance products  
+
 __Jul 2016 – Oct 2019:__ Data Analyst, Samsung Electronics (Mobile Division AI Team)  
-__Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Mobile Division Procurement Team)  
+- Performed statistical analysis on user data (Samsung Pay, Bixby)  
+- Increased monthly active users by 15% through service optimization and market analysis  
+
+__Jul 2013 – Jun 2016:__ Procurement Manager, Samsung Electronics (Procurement Team)  
+- Semiconductor demand forecasting (KNN clustering, regression modeling)  
+- Achieved >10% stock reduction and improved Just-In-Time performance  
+
 
 __MS in Data Science, Seoul National University__ , Seoul, Korea 
 (Image generation/translation, Video understanding, Multimodal AI, LLM)  

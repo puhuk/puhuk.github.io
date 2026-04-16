@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Sangho Lee"
   avatar           : "profile.jpg"
-  bio              : "Computer vision engineer"
+  bio              :
   location         : "Seoul, South Korea"
   employer         :
   googlescholar    : 
@@ -93,7 +93,7 @@ author:
   facebook         :
   foursquare       :
   github           : "puhuk"
-  blog             : "blog.sotaaz.com"
+  blog             :
   google_plus      :
   keybase          :
   instagram        :
@@ -102,7 +102,7 @@ author:
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "12369959/puhuk"
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : 

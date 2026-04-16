@@ -1,0 +1,591 @@
+---
+layout: null
+permalink: /tutoring/
+---
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutoring — Sangho Lee</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --text: #1a1a1a;
+      --sub: #666;
+      --accent: #2563eb;
+      --accent-light: #eff6ff;
+      --border: #e5e7eb;
+      --tag-rag: #7c3aed;
+      --tag-rag-bg: #f3f0ff;
+      --tag-llm: #c2410c;
+      --tag-llm-bg: #fff7ed;
+      --tag-opt: #0891b2;
+      --tag-opt-bg: #ecfeff;
+      --tag-gen: #be185d;
+      --tag-gen-bg: #fdf2f8;
+      --tag-ops: #15803d;
+      --tag-ops-bg: #f0fdf4;
+      --tag-fw: #6d28d9;
+      --tag-fw-bg: #f5f3ff;
+      --tag-math: #b45309;
+      --tag-math-bg: #fffbeb;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    header { margin-bottom: 48px; }
+
+    .lang-toggle {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      justify-content: flex-end;
+    }
+
+    .lang-btn {
+      background: none;
+      border: 1px solid var(--border);
+      padding: 4px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--sub);
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active {
+      background: var(--text);
+      color: #fff;
+      border-color: var(--text);
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .intro {
+      color: var(--sub);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .section { margin-bottom: 40px; }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--sub);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 24px;
+      margin-bottom: 10px;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--sub);
+      line-height: 1.5;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
+    .tag-rag { color: var(--tag-rag); background: var(--tag-rag-bg); }
+    .tag-llm { color: var(--tag-llm); background: var(--tag-llm-bg); }
+    .tag-opt { color: var(--tag-opt); background: var(--tag-opt-bg); }
+    .tag-gen { color: var(--tag-gen); background: var(--tag-gen-bg); }
+    .tag-ops { color: var(--tag-ops); background: var(--tag-ops-bg); }
+    .tag-fw { color: var(--tag-fw); background: var(--tag-fw-bg); }
+    .tag-math { color: var(--tag-math); background: var(--tag-math-bg); }
+
+    .contact {
+      margin-top: 48px;
+      padding: 24px;
+      background: var(--accent-light);
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--sub);
+      text-decoration: none;
+    }
+
+    .back-link:hover { color: var(--text); }
+
+    @media (max-width: 480px) {
+      .container { padding: 40px 16px 60px; }
+      h1 { font-size: 24px; }
+      .card { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="kr" onclick="setLang('kr')">KR</button>
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+
+    <header>
+      <h1>
+        <span class="kr">AI 강의 & 멘토링</span>
+        <span class="en">AI Tutoring & Mentoring</span>
+      </h1>
+      <p class="intro">
+        <span class="kr">안녕하세요, <strong>이상호</strong>입니다.<br>LLM, RAG, 모델 최적화부터 MLOps까지 — 강의는 물론, 현재 진행 중인 프로젝트에 맞는 아키텍처 컨설팅과 최적화 솔루션을 직접 설계해드립니다.<br>아래에서 관심 있는 주제를 골라 편하게 연락주세요.</span>
+        <span class="en">Hi, I'm <strong>Sangho Lee</strong>.<br>From LLM, RAG, and model optimization to MLOps — I offer lectures as well as architecture consulting and optimization solutions tailored to your project.<br>Pick a topic below and reach out.</span>
+      </p>
+    </header>
+
+    <!-- RAG -->
+    <div class="section">
+      <div class="section-title">RAG</div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">실전 RAG: "검색 잘 되는데 답변이 쓰레기인" 그 문제, 해결합니다</span>
+          <span class="en">Practical RAG: Fixing the "Good Retrieval, Garbage Answer" Problem</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Re-ranking, 프롬프트 엔지니어링, 컨텍스트 압축 — 답변 품질을 결정짓는 검색 이후의 기술</span>
+          <span class="en">Re-ranking, prompt engineering, context compression — post-retrieval techniques that define answer quality</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">RAG 성능 평가 심화: 어떤 RAG 시스템도 무너뜨리는 마법 프롬프트 20개</span>
+          <span class="en">RAG Evaluation: 20 Magic Prompts That Break Any RAG System</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">RAGAS, LLM-as-Judge, 그리고 실전 스트레스 테스트 — 우리 RAG가 진짜 잘 하는지 증명하는 법</span>
+          <span class="en">RAGAS, LLM-as-Judge, and real stress tests — prove your RAG actually works</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">GraphRAG: 벡터 검색의 한계를 부수는 지식 그래프 RAG</span>
+          <span class="en">GraphRAG: Knowledge Graphs That Shatter Vector Search Limits</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">엔티티 추출, 관계 생성, 커뮤니티 탐지, Multi-hop 추론 — MS GraphRAG로 "검색"을 "추론"으로 바꾸기</span>
+          <span class="en">Entity extraction, relation building, community detection, multi-hop reasoning — turn search into reasoning with MS GraphRAG</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">임베딩 & 인코더: 벡터 한 줄 바꿨을 뿐인데 RAG 성능이 2배</span>
+          <span class="en">Embeddings & Encoders: One Vector Change, 2x RAG Performance</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">임베딩 모델 선택부터 청킹 전략까지, 검색 품질을 결정하는 진짜 변수들을 파헤칩니다</span>
+          <span class="en">From embedding model selection to chunking strategy — the real variables behind retrieval quality</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">우리 팀 RAG 아키텍처 진단: 병목은 어디에 숨어 있는가</span>
+          <span class="en">RAG Architecture Audit: Where Is the Bottleneck Hiding?</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">현재 파이프라인을 함께 뜯어보고, 검색·생성·평가 각 단계에서 가장 효과 큰 개선 포인트를 짚어드립니다</span>
+          <span class="en">We'll tear apart your pipeline together and pinpoint the highest-impact improvements at each stage</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">온톨로지(Ontology) 설계: 도메인 지식을 구조화하는 시맨틱 프레임워크</span>
+          <span class="en">Ontology Design: A Semantic Framework for Structuring Domain Knowledge</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">RDF, OWL, SPARQL — 그래프 기반 지식 표현의 정석, RAG와 결합하면 검색이 추론이 됩니다</span>
+          <span class="en">RDF, OWL, SPARQL — when classical knowledge representation meets RAG, search becomes reasoning</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- LLM & Fine-tuning -->
+    <div class="section">
+      <div class="section-title">LLM & Fine-tuning</div>
+
+      <div class="card">
+        <span class="tag tag-llm">LLM</span>
+        <div class="card-title">
+          <span class="kr">LoRA & QLoRA: 8GB GPU 하나로 끝내는 나만의 LLM</span>
+          <span class="en">LoRA & QLoRA: Build Your Own LLM with a Single 8GB GPU</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Full Fine-tuning은 잊어라 — Transformer 구조부터 PEFT 학습, 모델 병합·배포까지 풀코스</span>
+          <span class="en">Forget full fine-tuning — full course from Transformer architecture to PEFT training, model merging & deployment</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-llm">LLM</span>
+        <div class="card-title">
+          <span class="kr">Multi-GPU 학습: 카드 여러 장을 하나처럼 쓰는 분산 트레이닝의 정석</span>
+          <span class="en">Multi-GPU Training: The Art of Distributed Training Across Multiple Cards</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">DeepSpeed, FSDP, 파이프라인 병렬화 — GPU 4장이면 70B도 학습 가능한 세팅법</span>
+          <span class="en">DeepSpeed, FSDP, pipeline parallelism — train 70B models with just 4 GPUs</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-llm">LLM</span>
+        <div class="card-title">
+          <span class="kr">LangChain / LangGraph 실무: 에이전트가 스스로 판단하는 AI 시스템 구축</span>
+          <span class="en">LangChain / LangGraph: Build AI Systems Where Agents Make Their Own Decisions</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Tool Calling, 상태 그래프, 멀티 에이전트 오케스트레이션 — 챗봇을 넘어 자율 시스템으로</span>
+          <span class="en">Tool calling, state graphs, multi-agent orchestration — beyond chatbots to autonomous systems</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optimization & Serving -->
+    <div class="section">
+      <div class="section-title">
+        <span class="kr">Optimization & Serving</span>
+        <span class="en">Optimization & Serving</span>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-opt">Optimization</span>
+        <div class="card-title">
+          <span class="kr">양자화(Quantization) 마스터: FP32에서 INT4까지, 정확도 지키면서 모델 4배 가볍게</span>
+          <span class="en">Quantization Master: FP32 to INT4 — 4x Lighter Models Without Losing Accuracy</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Dynamic / Static / QAT 양자화와 ONNX 최적화까지, YOLOv8 실습 포함</span>
+          <span class="en">Dynamic / Static / QAT quantization & ONNX optimization — with YOLOv8 hands-on</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-opt">Optimization</span>
+        <div class="card-title">
+          <span class="kr">프루닝 & 지식 증류: 모델 다이어트의 기술</span>
+          <span class="en">Pruning & Knowledge Distillation: The Art of Model Diet</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">뉴런을 잘라내고, 작은 모델에 지식을 압축하는 — 경량화 투트랙 전략</span>
+          <span class="en">Cut neurons, compress knowledge into smaller models — a two-track lightweighting strategy</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-opt">Serving</span>
+        <div class="card-title">
+          <span class="kr">LLM 서빙 최적화: 같은 GPU에서 처리량 3배, 월 비용 반으로</span>
+          <span class="en">LLM Serving Optimization: 3x Throughput, Half the Monthly Cost on the Same GPU</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">vLLM, TensorRT-LLM, Continuous Batching, PagedAttention — 돈 아끼는 서빙의 정석</span>
+          <span class="en">vLLM, TensorRT-LLM, Continuous Batching, PagedAttention — the art of cost-efficient serving</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Generative AI -->
+    <div class="section">
+      <div class="section-title">Generative AI</div>
+
+      <div class="card">
+        <span class="tag tag-gen">Diffusion</span>
+        <div class="card-title">
+          <span class="kr">Stable Diffusion & Flux: 텍스트 한 줄로 이미지를 만드는 원리와 실전</span>
+          <span class="en">Stable Diffusion & Flux: From Text to Image — Principles and Practice</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">DDPM → DDIM → Latent Diffusion → Flux 까지 확산 모델의 진화를 코드와 함께 따라갑니다</span>
+          <span class="en">Trace the evolution from DDPM → DDIM → Latent Diffusion → Flux, all with code</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-gen">Diffusion</span>
+        <div class="card-title">
+          <span class="kr">DDPM / DDIM 딥다이브: 노이즈에서 이미지가 태어나는 수학</span>
+          <span class="en">DDPM / DDIM Deep Dive: The Math Behind Images Born from Noise</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Forward/Reverse process, 스코어 매칭, 가속 샘플링 — 논문의 수식을 직접 구현합니다</span>
+          <span class="en">Forward/reverse process, score matching, accelerated sampling — implement the paper's equations yourself</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MLOps -->
+    <div class="section">
+      <div class="section-title">MLOps</div>
+
+      <div class="card">
+        <span class="tag tag-ops">MLOps</span>
+        <div class="card-title">
+          <span class="kr">MLOps 실전: 모델이 '배포'되는 순간부터가 진짜 시작이다</span>
+          <span class="en">MLOps in Practice: The Real Game Starts the Moment You Deploy</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">CI/CD, 모델 레지스트리, A/B 테스트, 모니터링, 드리프트 감지 — 프로덕션 ML의 생존 키트</span>
+          <span class="en">CI/CD, model registry, A/B testing, monitoring, drift detection — the production ML survival kit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Infrastructure -->
+    <div class="section">
+      <div class="section-title">Infrastructure</div>
+
+      <div class="card">
+        <span class="tag tag-ops">Infra</span>
+        <div class="card-title">
+          <span class="kr">우리 팀 GPU 서버, 원클릭 세팅: CUDA부터 Docker까지 삽질 없이 끝내기</span>
+          <span class="en">One-Click GPU Server Setup: From CUDA to Docker, Zero Yak-Shaving</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">드라이버 충돌, CUDA 버전 지옥, 컨테이너 GPU 패스스루 — 한 번 세팅하면 팀 전체가 쓰는 환경 구축</span>
+          <span class="en">Driver conflicts, CUDA version hell, container GPU passthrough — set it up once, the whole team benefits</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-ops">Infra</span>
+        <div class="card-title">
+          <span class="kr">AI 서비스 배포 파이프라인: 모델을 API로 내보내는 가장 빠른 경로</span>
+          <span class="en">AI Deployment Pipeline: The Fastest Path from Model to API</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">FastAPI, Triton, Kubernetes — 로컬 노트북에서 프로덕션 엔드포인트까지 원스텝으로 연결합니다</span>
+          <span class="en">FastAPI, Triton, Kubernetes — one step from your local notebook to a production endpoint</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-ops">Infra</span>
+        <div class="card-title">
+          <span class="kr">클라우드 GPU 비용 최적화: AWS/GCP에서 70% 덜 쓰는 실전 전략</span>
+          <span class="en">Cloud GPU Cost Optimization: Spend 70% Less on AWS/GCP</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">스팟 인스턴스, 오토스케일링, 멀티 클라우드 전략 — 매달 나가는 GPU 비용, 진짜 이만큼 줄어듭니다</span>
+          <span class="en">Spot instances, autoscaling, multi-cloud strategy — your monthly GPU bill really can shrink this much</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Math & Statistics -->
+    <div class="section">
+      <div class="section-title">
+        <span class="kr">Math & Statistics for AI</span>
+        <span class="en">Math & Statistics for AI</span>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-math">Statistics</span>
+        <div class="card-title">
+          <span class="kr">ML을 위한 통계: 수식이 아니라 코드로 이해하는 확률과 분포</span>
+          <span class="en">Statistics for ML: Understand Probability & Distributions Through Code, Not Formulas</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">베이즈 정리, MLE, 분포 추정 — 논문에 나오는 그 수식, Python 10줄이면 직관이 잡힙니다</span>
+          <span class="en">Bayes' theorem, MLE, distribution estimation — those paper formulas click with just 10 lines of Python</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-math">Linear Algebra</span>
+        <div class="card-title">
+          <span class="kr">AI를 위한 선형대수: Transformer가 행렬 곱셈인 이유</span>
+          <span class="en">Linear Algebra for AI: Why Transformers Are Just Matrix Multiplications</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">벡터 공간, 고유값 분해, Attention은 결국 projection — 딥러닝의 뼈대를 수학으로 꿰뚫습니다</span>
+          <span class="en">Vector spaces, eigendecomposition, Attention as projection — see deep learning's skeleton through the math</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-math">A/B Testing</span>
+        <div class="card-title">
+          <span class="kr">A/B 테스트 제대로: "유의미합니다"를 근거 있게 말하는 법</span>
+          <span class="en">A/B Testing Done Right: How to Say "Statistically Significant" and Mean It</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">가설 검정, p-value, 검정력 분석, 표본 크기 설계 — 마케팅과 프로덕트 의사결정을 숫자로 무장시킵니다</span>
+          <span class="en">Hypothesis testing, p-values, power analysis, sample sizing — arm your marketing & product decisions with numbers</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-math">Data Analysis</span>
+        <div class="card-title">
+          <span class="kr">데이터 분석 실전: 숫자 뒤에 숨은 스토리를 찾아내는 기술</span>
+          <span class="en">Data Analysis in Practice: Finding the Story Hidden Behind the Numbers</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">EDA, 코호트 분석, 퍼널 최적화, 이탈 예측 — 마케팅·그로스 현장에서 검증된 분석 프레임워크</span>
+          <span class="en">EDA, cohort analysis, funnel optimization, churn prediction — battle-tested frameworks from marketing & growth</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hands-on Projects -->
+    <div class="section">
+      <div class="section-title">
+        <span class="kr">Hands-on Projects</span>
+        <span class="en">Hands-on Projects</span>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-rag">RAG</span>
+        <div class="card-title">
+          <span class="kr">우리 회사 데이터로 만드는 사내 AI 챗봇: 질문하면 알아서 찾아주는 동료</span>
+          <span class="en">Build an Internal AI Chatbot with Your Company Data: A Colleague That Finds Answers for You</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">사내 문서, 위키, Slack 히스토리를 RAG로 연결 — "이거 어디 있어요?" 질문에 5초 안에 답하는 봇</span>
+          <span class="en">Connect internal docs, wiki, Slack history via RAG — a bot that answers "where is this?" in 5 seconds</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-llm">LLM</span>
+        <div class="card-title">
+          <span class="kr">고객 리뷰 수천 개, AI가 1분 만에 인사이트로: 감성 분석 파이프라인 구축</span>
+          <span class="en">Thousands of Reviews to Insights in 1 Minute: Build a Sentiment Analysis Pipeline</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">크롤링 → LLM 분류 → 대시보드까지, "고객이 진짜 원하는 게 뭔지" 자동으로 뽑아내는 시스템</span>
+          <span class="en">Crawling → LLM classification → dashboard — a system that automatically extracts what customers really want</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-gen">Diffusion</span>
+        <div class="card-title">
+          <span class="kr">노트북에서 바로 배포하는 AI 이미지 생성기: 프롬프트 한 줄로 상품 이미지 찍기</span>
+          <span class="en">Deploy an AI Image Generator from Your Notebook: Product Photos from a Single Prompt</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Stable Diffusion + ControlNet + LoRA 커스텀 — 우리 브랜드 스타일에 맞는 이미지를 무한 생산</span>
+          <span class="en">Stable Diffusion + ControlNet + custom LoRA — infinite images in your brand's style</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-llm">Agent</span>
+        <div class="card-title">
+          <span class="kr">먼저 말 거는 AI: 상황을 읽고 선제 대응하는 Proactive 챗봇 만들기</span>
+          <span class="en">AI That Speaks First: Build a Proactive Chatbot That Reads the Situation</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">유저 행동 패턴 감지 → 트리거 설계 → 자동 메시지 생성 — "고객이 이탈하기 전에 먼저 말을 건다"</span>
+          <span class="en">User behavior detection → trigger design → auto messaging — "reach out before the customer churns"</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-ops">MLOps</span>
+        <div class="card-title">
+          <span class="kr">사이드 프로젝트 AI를 실서비스로: 주말에 만든 모델, 월요일에 배포하기</span>
+          <span class="en">Side Project to Production: Deploy Your Weekend Model on Monday</span>
+        </div>
+        <div class="card-desc">
+          <span class="kr">Gradio 프로토타입 → Docker 패키징 → 클라우드 배포 → 모니터링까지 48시간 스프린트</span>
+          <span class="en">Gradio prototype → Docker packaging → cloud deploy → monitoring — a 48-hour sprint</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="/" class="back-link">&larr; sangho.ai</a>
+
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.kr').forEach(el => el.style.display = lang === 'kr' ? '' : 'none');
+      document.querySelectorAll('.en').forEach(el => el.style.display = lang === 'en' ? '' : 'none');
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      localStorage.setItem('tutoring-lang', lang);
+    }
+    setLang(localStorage.getItem('tutoring-lang') || 'kr');
+  </script>
+</body>
+</html>

@@ -10,6 +10,8 @@ author_profile: true
 {% endif %}
 
 ### Conference
+**Sangho Lee**, Eugene Baek, Suho Ryu, Dongsoo Shin, Joonseok Lee. **Preserving Compositionality for Robust Multi-Subject Personalization in Text-to-Image Generation**, Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence (UAI), 2026.
+
 Jinyeong Chae, Donghwa Kim, Kwanseok Kim, Doyeon Lee, **Sangho Lee**, Seongsu Ha, Jonghwan Mun, Wooyoung Kang, Byungseok Roh, Joonseok Lee. **Towards a Complete Benchmark on Video Moment Localization**, Proceedings of the 27th International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.
 
 **Sangho Lee**, Seoyoung Lee, Joonseok Lee. **Learning to Wear: Details-Preserved Virtual Try-on via Disentangling Clothes and Wearer**, Proceedings of the 33rd British Machine Vision Conference (BMVC), 2022.
